@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+       }
+       header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+       nav {
+        background-color: rgb(155, 155, 155);
+        padding: 5px;
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.356);
+       }
+       nav > a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 30px;
+       }
+       nav > a:hover {
+        text-decoration: underline;
+       }
+       main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+       article {
+        background-color: rgb(132, 137, 141);
+        padding: 5px;
+       }
+       article > aside {
+        background-color: rgb(83, 81, 81);
+        padding: 5px;
+       }
+       footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+       }
+
+       footer > p {
+        margin: 0px;
+       }
+    </style>
+
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+        <a href="#">Links</a>
+    </nav>
+   </header>
+   <main>
+    <section id="Assuntos">
+        <article>
+
+        </article>
+
+    </section>
+    <section id="Noticias">
+        <article>
+            <h2>Noticias do  Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum deserunt ipsa, ab consequatur, quos perferendis distinctio impedit, totam dignissimos sed suscipit saepe et iusto debitis possimus odit officiis quibusdam natus?</p>
+            <aside>
+                Escrito por Jose da Silva
+            </aside>
+        </article>
+
+    </section>
+   </main>
+   <footer>
+    <p><i>Desenvolvido por Cavalcante &copy;2024</i></p>
+   </footer>
+</body>
+</html>

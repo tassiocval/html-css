@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexivel</title>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>Voce esta vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia &#x1F92F;</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/girl-p.jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/girl-m.jpg">
+        <img src="imagens/girl-g.jpg" alt="imagem girl">
+    </picture>
+</body>
+</html>

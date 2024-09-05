@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata"  controls loop>
+        <source src="midia/Lauana Prado Raiz Goiânia - Me Leva Pra Casa _ Escrito Nas Estrelas _ Saudade.mp3" type="audio/mp3">
+        <source src="midia/Lauana Prado Raiz Goiânia - Me Leva Pra Casa _ Escrito Nas Estrelas _ Saudade.ogg" type="audio/ogg">
+        <source src="midia/Lauana Prado Raiz Goiânia - Me Leva Pra Casa _ Escrito Nas Estrelas _ Saudade.wav" type="audio/wav">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/Lauana Prado Raiz Goiânia - Me Leva Pra Casa _ Escrito Nas Estrelas _ Saudade.mp3">Clique aqui para baixar o arquivo MP3 </a></p>
+        
+    </audio>
+   
+</body>
+</html>
